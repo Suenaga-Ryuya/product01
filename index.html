@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width">
+  <title>NWアシストカンパニー</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="img/logo.png" type="image/png">
+  <link rel="icon" href="img/logo.svg" type="image/svg+xml">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  
+  
+  <!-- header -->
+  <header class="header">
+    <!-- container -->
+    <div class="container">
+      <!-- site -->
+      <div class="site">
+        <img src="img/logo.svg" alt="NWアシスタントカンパニーロゴ">
+        <div>
+          <p class="corp">NWアシストカンパニー</p>
+          <p class="desc">確かなスタッフによる業務サポート</p>
+        </div>
+      </div><!-- site end -->
+
+      <nav class="nav">
+        <ul>
+          <li><a href="#">会員情報</a></li>
+          <li><a href="#">サービス</a></li>
+          <li><a class="btn" href="#">お問い合わせ</a></li>
+        </ul>
+      </nav>
+  
+      <button class="nav-button" type="button" onClick="navFunc()">
+        <span class="sr-only">MENU</span>
+      </button>
+    </div><!-- container end -->
+  </header><!-- header end -->
+
+
+  <!-- hero -->
+  <section class="hero">
+    <!-- catch -->
+    <div class="catch">
+      <!-- container -->
+      <div class="container">
+        <h1><img src="img/hero.svg" alt="NW Assistant Company"></h1>
+        <p>縁の下の力持ちとしてお仕事を支えます</p>
+      </div><!-- container end -->
+    </div><!-- catch end -->
+  </section><!-- hero end -->
+
+
+  <!-- message -->
+  <section class="message">
+    <!-- container -->
+    <div class="container">
+      <h2>ビジネスアシスタントとして<br>サポートを続けて20年</h2>
+      <p>プロのビジネスアシスタントとして独立後、さまざまなお客様からご依頼いただき、多様な業務、事業、効率化などのサポートを行ってきました。得意分野が多岐にわたるスタッフが揃っていますので、必要に応じてどのような業務にも対応いたし、雑事に振り回されることなく、重要な案件に取り組んでいただくことを目指しています。
+      </p>
+    </div><!-- container end -->
+  </section><!-- message end -->
+
+
+  <!-- service -->
+  <section class="service">
+    <!-- container -->
+    <div class="container">
+      <h2>アシスタントサービス</h2>
+      <p>私たちにできること</p>
+
+      <!-- details -->
+      <div class="details">
+
+        <!-- office -->
+        <article class="detail office">
+          <figure></figure>
+          <h3>オフィス業務<br>サポート</h3>
+          <p>書類管理、電話・メール応対、スケジュール管理、デジタルトランスフォーメーションなど、様々なオフィス業務のサポートなどを行います。</p>
+          <a class="btn" href="#">OFFICE</a>
+        </article><!-- office end -->
+
+        <!-- manage -->
+        <article class="detail manage">
+          <figure></figure>
+          <h3>マネージメント<br>サポート</h3>
+          <p>プロジェクトチーム構成メンバーのマネージメント、案件の進捗管理、リーダーのアシスタントサポートなどを行います。</p>
+          <a class="btn" href="#">MANAGEMENT</a>
+        </article><!-- manage end -->
+
+        <!-- research -->
+        <article class="detail research">
+          <figure></figure>
+          <h3>調査・研究<br>サポート</h3>
+          <p>各種事業の立ち上げ、運営に関わる調査・研究サポートや、特定分野の専門家との提携のお手伝いなどをおこないます。</p>
+          <a class="btn" href="#">RESEARCH</a>
+        </article><!-- research end -->
+
+      </div><!-- details end-->
+
+    </div><!-- container end -->
+  </section><!-- service end -->
+
+
+  <!-- contact -->
+  <section class="contact">
+    <!-- container -->
+    <div class="container">
+      <!-- text -->
+      <div class="text">
+        <h2>お問い合わせ</h2>
+        <p>もっと業務を効率化したい<br>マネージメントの煩わしさから解放されたい<br>本業に集中したいなどなど、<br>些細なことでもお気軽にお問い合わせください。</p>
+      </div><!-- text end -->
+
+      <!-- form -->
+      <form class="form">
+        <p>
+          <label>
+            <span class="sr-only">名前</span>
+            <input type="text" name="name" placeholder="名前">
+          </label>
+        </p>
+        <p>
+          <label>
+            <span class="sr-only">メールアドレス</span>
+            <input type="email" name="email" placeholder="メールアドレス">
+          </label>
+        </p>
+        <p>
+          <label>
+            <span class="sr-only">メッセージ</span>
+            <textarea name="msg" placeholder="メッセージを入力して下さい"></textarea>
+          </label>
+        </p>
+        <p>
+          <input class="btn" type="submit" value="送信">
+        </p>
+      </form><!-- form end end -->
+    </div><!-- container end -->
+  </section><!-- text end -->
+
+
+  <!-- footer -->
+  <footer class="footer">
+  <!-- container -->
+    <div class="container">
+    <!-- info -->
+      <div class="info">
+      <!-- site -->
+        <div class="site">
+          <img src="img/logo-white.svg" alt="">
+          <div>
+            <p class="corp">NWアシスタントカンパニー</p>
+          </div>
+        </div><!-- site end -->
+
+        <p class="add">
+          〒001-0001<br>
+          北海道中央区南53条東西ビル8F<br>
+          0001-1234-5678
+        </p>
+      </div><!-- info end -->
+
+      <ul class="sns">
+        <li><a href=""><img src="img/logo-twitter.svg" alt="Twitter"></a></li>
+        <li><a href=""><img src="img/logo-facebook.svg" alt="Facebook"></a></li>
+        <li><a href=""><img src="img/logo-instagram.svg" alt="instagram"></a></li>
+      </ul>
+    </div><!-- container end -->
+  </footer><!-- footer end -->
+
+  <script>
+    function navFunc() {
+      document.querySelector('html').classList.toggle('open');
+    }
+  </script>
+
+</body>
+</html>

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="604" height="67" viewBox="0 0 604 67">
+  <defs>
+    <clipPath id="clip-hero">
+      <rect width="604" height="67"/>
+    </clipPath>
+  </defs>
+  <g id="hero" clip-path="url(#clip-hero)">
+    <g id="グループ_1" data-name="グループ 1" transform="translate(-18)">
+      <text id="NW_Assistant_Company" data-name="NW Assistant Company" transform="translate(18 52)" fill="#2e5180" font-size="55" font-family="Constantia-Bold, Constantia" font-weight="700"><tspan x="0" y="0">NW Assistant Company</tspan></text>
+    </g>
+  </g>
+</svg>
